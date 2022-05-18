@@ -9,7 +9,7 @@ const routes: Routes = [
   {
     path: '', component: AppComponent, children: [
       { path: '', component: HomeComponent, children:[
-        {path: '', component: MainChordsComponent},
+        {path: 'chords', component: MainChordsComponent},
         {path: 'pentatonics', component: PentatonicsComponent},
       ] },
 
