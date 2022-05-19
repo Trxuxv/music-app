@@ -1,3 +1,5 @@
+import { MajorComponent } from './pages/pentatonics/major/major.component';
+import { MinorComponent } from './pages/pentatonics/minor/minor.component';
 import { PentatonicsComponent } from './pages/pentatonics/pentatonics.component';
 import { MainChordsComponent } from './pages/main-chords/main-chords.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -10,7 +12,10 @@ const routes: Routes = [
     path: '', component: AppComponent, children: [
       { path: '', component: HomeComponent, children:[
         {path: 'chords', component: MainChordsComponent},
-        {path: 'pentatonics', component: PentatonicsComponent},
+        {path: 'pentatonics', component: PentatonicsComponent, children:[
+          {path:'minor', component: MinorComponent},
+          {path:'major', component: MajorComponent}
+        ]},
       ] },
 
       {path: 'page2', component: MainChordsComponent}
