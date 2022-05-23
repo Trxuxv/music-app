@@ -1,0 +1,24 @@
+[
+    {
+        "Bands": [
+            {
+                "band": "Avenged Sevenfold",
+                "musics": [
+                    {
+                        "id": 1,
+                        "name": "Scream"
+                    }
+                ]
+            },
+            {
+                "band": "Nirvana",
+                "musics": [
+                    {
+                        "id": 1,
+                        "name": "Scream"
+                    }
+                ]
+            }
+        ]
+    }
+]

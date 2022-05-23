@@ -5,10 +5,12 @@ import { HomeComponent } from './pages/home/home.component';
 import { MatButtonModule } from '@angular/material/button';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { AppComponent } from './app.component';
 import { NgModule } from '@angular/core';
+
 
 @NgModule({
   declarations: [
@@ -21,6 +23,7 @@ import { NgModule } from '@angular/core';
     BrowserAnimationsModule,
     AppRoutingModule,
     MatButtonModule,
+    HttpClientModule,
     MatIconModule,
     BrowserModule,
     MatMenuModule,

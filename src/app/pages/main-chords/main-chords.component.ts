@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import * as data from './../../../assets/data/chords.json';
+import * as data from './../../../assets/data/chords/chords.json';
 
 export interface Dados {
   cliente: string;
